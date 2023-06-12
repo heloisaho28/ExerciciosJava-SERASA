@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculadora</title>
+        <script>src="Calculadora.jsp">Calculadora.jsp</script>
+    </head>
+    <body background="beige">
+        <h1>Calculadora</h1>
+        <hr>
+        <form action="calculadora.jsp" method="get">
+            <input type="text" name="valor1" size="8">
+            <select name="operacao">
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="-">-</option>
+                <option value="+">+</option>
+            </select>
+            <input type="text" name="Valor2" size="9">
+            <input type="submit" value="calcular">
+        </form>
+    </body>
+</html>
